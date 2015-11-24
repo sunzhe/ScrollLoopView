@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = "重复利用item, 使用block完成回调."
 
-  s.homepage         = "https://github.com/sunzhe/ScrollLoopView"
+  s.homepage         = "https://github.com/sunzhe/ScrollLoopView.git"
 
   s.license          = 'MIT'
   s.author           = { "ioszhe" => "ioszhe@qq.com" }

@@ -11,7 +11,7 @@
 #import "ExaminationCell.h"
 
 @interface SZViewController ()
-
+@property(nonatomic, retain)NSMutableArray *contentList;
 @end
 
 @implementation SZViewController
@@ -28,8 +28,8 @@
         [tmp addObject:exam];
     }
     self.contentList = tmp;
-    [tmp addObject:@(1)];
-    ScrollLoopView *loopView = [[ScrollLoopView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 400)];
+    
+    ScrollLoopView *loopView = [[ScrollLoopView alloc] initWithFrame:CGRectMake(0, 80, self.view.frame.size.width, 400)];
     loopView.rowNum = _contentList.count;
     
     __unsafe_unretained ScrollLoopView * tmpLoopView = loopView;

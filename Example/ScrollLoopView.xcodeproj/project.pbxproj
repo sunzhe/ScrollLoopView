@@ -23,6 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		7548F80A1C0447E600490F97 /* ExaminationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548F8071C0447E600490F97 /* ExaminationCell.m */; };
 		7548F80B1C0447E600490F97 /* ExamAnswerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548F8091C0447E600490F97 /* ExamAnswerItem.m */; };
+		7548F80E1C044CEB00490F97 /* ExamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548F80D1C044CEB00490F97 /* ExamModel.m */; };
+		7548F8101C044E3F00490F97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7548F80F1C044E3F00490F97 /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		FCFC52D3DA6B8C1B0192846C /* Pods_ScrollLoopView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AD3E050BB74DDCCD988CBB /* Pods_ScrollLoopView_Example.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +66,9 @@
 		7548F8071C0447E600490F97 /* ExaminationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExaminationCell.m; sourceTree = "<group>"; };
 		7548F8081C0447E600490F97 /* ExamAnswerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamAnswerItem.h; sourceTree = "<group>"; };
 		7548F8091C0447E600490F97 /* ExamAnswerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamAnswerItem.m; sourceTree = "<group>"; };
+		7548F80C1C044CEB00490F97 /* ExamModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamModel.h; sourceTree = "<group>"; };
+		7548F80D1C044CEB00490F97 /* ExamModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamModel.m; sourceTree = "<group>"; };
+		7548F80F1C044E3F00490F97 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9EF7C987AD3410AB03077F72 /* Pods-ScrollLoopView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollLoopView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollLoopView_Example/Pods-ScrollLoopView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A081E73F1EB397B153F438BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -139,8 +144,11 @@
 				6003F59C195388D20070C39A /* SZAppDelegate.h */,
 				6003F59D195388D20070C39A /* SZAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				7548F80F1C044E3F00490F97 /* LaunchScreen.storyboard */,
 				6003F5A5195388D20070C39A /* SZViewController.h */,
 				6003F5A6195388D20070C39A /* SZViewController.m */,
+				7548F80C1C044CEB00490F97 /* ExamModel.h */,
+				7548F80D1C044CEB00490F97 /* ExamModel.m */,
 				7548F8051C0447DD00490F97 /* view */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -295,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				7548F8101C044E3F00490F97 /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -412,6 +421,7 @@
 				7548F80B1C0447E600490F97 /* ExamAnswerItem.m in Sources */,
 				7548F80A1C0447E600490F97 /* ExaminationCell.m in Sources */,
 				6003F5A7195388D20070C39A /* SZViewController.m in Sources */,
+				7548F80E1C044CEB00490F97 /* ExamModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
