@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/ScrollLoopView.svg?style=flat)](http://cocoapods.org/pods/ScrollLoopView)
 [![Platform](https://img.shields.io/cocoapods/p/ScrollLoopView.svg?style=flat)](http://cocoapods.org/pods/ScrollLoopView)
 
+重复利用item, 使用block完成回调.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

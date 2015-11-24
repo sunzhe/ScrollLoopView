@@ -1,25 +1,20 @@
 {
   "name": "ScrollLoopView",
-  "version": "0.1.0",
-  "summary": "A short description of ScrollLoopView.",
+  "version": "1.0.0",
+  "summary": "自定义横向滚动scrollview",
   "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/ScrollLoopView",
+  "homepage": "https://github.com/sunzhe>/ScrollLoopView",
   "license": "MIT",
   "authors": {
     "ioszhe": "ioszhe@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/ScrollLoopView.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/sunzhe/ScrollLoopView.git",
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "6.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "ScrollLoopView": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "source_files": "Pod/Classes/*"
 }

@@ -1,5 +1,5 @@
 PODS:
-  - ScrollLoopView (0.1.0)
+  - ScrollLoopView (1.0.0)
 
 DEPENDENCIES:
   - ScrollLoopView (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ScrollLoopView: a7cf3d664e63931cd4ac926c86d47b29f3d9471d
+  ScrollLoopView: 2306320ce4518817a1d3dae4c300da86d8ded85a
 
 COCOAPODS: 0.39.0
