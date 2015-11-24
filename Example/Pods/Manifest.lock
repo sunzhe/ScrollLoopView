@@ -1,0 +1,14 @@
+PODS:
+  - ScrollLoopView (0.1.0)
+
+DEPENDENCIES:
+  - ScrollLoopView (from `../`)
+
+EXTERNAL SOURCES:
+  ScrollLoopView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ScrollLoopView: a7cf3d664e63931cd4ac926c86d47b29f3d9471d
+
+COCOAPODS: 0.39.0

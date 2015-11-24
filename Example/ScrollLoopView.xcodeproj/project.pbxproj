@@ -21,6 +21,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		7548F80A1C0447E600490F97 /* ExaminationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548F8071C0447E600490F97 /* ExaminationCell.m */; };
+		7548F80B1C0447E600490F97 /* ExamAnswerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548F8091C0447E600490F97 /* ExamAnswerItem.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		FCFC52D3DA6B8C1B0192846C /* Pods_ScrollLoopView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AD3E050BB74DDCCD988CBB /* Pods_ScrollLoopView_Example.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +60,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6CFBA187521861404FD99997 /* ScrollLoopView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ScrollLoopView.podspec; path = ../ScrollLoopView.podspec; sourceTree = "<group>"; };
+		7548F8061C0447E600490F97 /* ExaminationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExaminationCell.h; sourceTree = "<group>"; };
+		7548F8071C0447E600490F97 /* ExaminationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExaminationCell.m; sourceTree = "<group>"; };
+		7548F8081C0447E600490F97 /* ExamAnswerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamAnswerItem.h; sourceTree = "<group>"; };
+		7548F8091C0447E600490F97 /* ExamAnswerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamAnswerItem.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9EF7C987AD3410AB03077F72 /* Pods-ScrollLoopView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollLoopView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollLoopView_Example/Pods-ScrollLoopView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A081E73F1EB397B153F438BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -135,6 +141,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* SZViewController.h */,
 				6003F5A6195388D20070C39A /* SZViewController.m */,
+				7548F8051C0447DD00490F97 /* view */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -180,6 +187,17 @@
 				4FCD4EFC324A82967276E91A /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		7548F8051C0447DD00490F97 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7548F8061C0447E600490F97 /* ExaminationCell.h */,
+				7548F8071C0447E600490F97 /* ExaminationCell.m */,
+				7548F8081C0447E600490F97 /* ExamAnswerItem.h */,
+				7548F8091C0447E600490F97 /* ExamAnswerItem.m */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 		78C20AEF2DA6ADA2D12CC113 /* Pods */ = {
@@ -391,6 +409,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* SZAppDelegate.m in Sources */,
+				7548F80B1C0447E600490F97 /* ExamAnswerItem.m in Sources */,
+				7548F80A1C0447E600490F97 /* ExaminationCell.m in Sources */,
 				6003F5A7195388D20070C39A /* SZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
