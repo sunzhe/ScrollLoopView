@@ -84,8 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-ScrollLoopView_Example/Masonry.framework"
   install_framework "Pods-ScrollLoopView_Example/ScrollLoopView.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-ScrollLoopView_Example/Masonry.framework"
   install_framework "Pods-ScrollLoopView_Example/ScrollLoopView.framework"
 fi

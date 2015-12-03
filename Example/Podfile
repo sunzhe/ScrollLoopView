@@ -2,11 +2,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'ScrollLoopView_Example', :exclusive => true do
-  pod "ScrollLoopView", :path => "../"
-end
-
-target 'ScrollLoopView_Tests', :exclusive => true do
-  pod "ScrollLoopView", :path => "../"
-
-  
+  pod 'ScrollLoopView'
+  pod 'Masonry', '~> 0.6.3'
 end

@@ -1,14 +1,13 @@
 PODS:
+  - Masonry (0.6.3)
   - ScrollLoopView (1.0.0)
 
 DEPENDENCIES:
-  - ScrollLoopView (from `../`)
-
-EXTERNAL SOURCES:
-  ScrollLoopView:
-    :path: ../
+  - Masonry (~> 0.6.3)
+  - ScrollLoopView
 
 SPEC CHECKSUMS:
-  ScrollLoopView: 2306320ce4518817a1d3dae4c300da86d8ded85a
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  ScrollLoopView: 09ef7b6e2fb4e5594042cb22be459866543d44d8
 
 COCOAPODS: 0.39.0
